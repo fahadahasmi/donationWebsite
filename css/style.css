@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+header {
+    background-image: url("../blob-haikei.svg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-logo {
+    min-width: 80px;
+}
+
+.nav-logo img {
+    width: 140px;
+}
+
+.Nav-content {
+    display: flex;
+    margin-right: 50px;
+}
+
+.Nav-content ul {
+    display: flex;
+}
+
+.Nav-content ul li {
+    display: flex;
+    list-style: none;
+}
+
+.Nav-content ul li a {
+    padding: 25px;
+    text-decoration: none;
+    color: #001122;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.mid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px 0px;
+    padding: 20px;
+}
+
+.mid-left {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.mid-content {
+    padding: 5px;
+}
+
+.mid-content h1,
+p {
+    font-size: 30px;
+    color: white;
+}
+
+.mid-btn {
+    margin: auto;
+    padding: 30px;
+}
+
+.btn {
+    padding: 13px;
+    width: 150px;
+    cursor: pointer;
+    background-color: #c4e6ff;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+}
+
+.btn a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(18, 10, 31);
+}
+
+.mid-right {
+    border-bottom-right-radius: 403px;
+    margin-right: 20px;
+    border-top-left-radius: 650px;
+    border-top-right-radius: 646px;
+    border-bottom-left-radius: 340px;
+}
+
+.about {
+    margin: 20px 0px;
+    padding: 20px;
+    background: white;
+}
+
+.about h2 {
+    text-align: center;
+    margin: auto;
+}
+
+.about-right {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.about-right div {
+    width: 500px;
+}
+
+.about-right img {
+    width: 500px;
+    height: 315px;
+    border-radius: 30px;
+}
+
+.about-right p {
+    font-size: 20px;
+    color: black;
+}
+
+#contact-mid {
+    flex-direction: row;
+    justify-content: space-around;
+    background: linear-gradient(350deg, #032d2f, #ade6d4);
+    margin-bottom: 0px;
+}
+
+.contact {
+    padding: 20px;
+    width: 210px;
+}
+
+.contact h3 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.contact p {
+    margin: 15px 4px;
+    color: black;
+    font-size: 20px;
+}
+
+.contact-form h2 {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+input,
+textarea {
+    width: 300px;
+    padding: 10px;
+    margin: 5px;
+    resize: none;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+input:hover {
+    border: 1px solid rgb(91, 155, 252);
+}
+
+textarea:hover {
+    border: 1px solid rgb(91, 155, 252);
+}
+
+footer {
+    background: black;
+}
+
+footer p {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}

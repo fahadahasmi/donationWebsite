@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://img.icons8.com/cotton/64/000000/donate--v1.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            background: radial-gradient(rgb(1, 13, 24), black);
+        }
+
+
+        .Nav-content ul li a {
+            color: white;
+        }
+
+        #pay-btn {
+            position: absolute;
+            top: 50%;
+            left: 40%;
+        }
+
+        #heading {
+            position: absolute;
+            top: 40%;
+            left: 24%;
+        }
+
+        h2 {
+            font-size: 42px;
+            color: #FFFFFF;
+            text-shadow: 0 -1px 4px #FFF, 0 -2px 10px rgb(0, 17, 255), 0 -10px 20px #0051ff, 0 -18px 40px rgb(0, 119, 255);
+            color: #FFFFFF;
+        }
+    </style>
+    <title>Payment Website</title>
+</head>
+
+<body>
+
+
+    <nav class="Navbar">
+        <div class="nav-logo">
+            <img src="logo2.png" alt="Logo">
+        </div>
+
+        <div class="Nav-content">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About Us</a></li>
+                <li><a href="index.html#contact-mid">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="heading">
+        <h2>"Give today for a better tomorrow."</h2>
+    </div>
+
+    <div id="pay-btn">
+        <form>
+            <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HJQ5FK4O2cnY9o"
+                async> </script>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
